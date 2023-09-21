@@ -29,6 +29,22 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 
 ### Acceso Remoto
 
+```
+sshd
+pkill sshd
+pkg upgrade
+pkg install openssh
+```
+
+Revisar archivo y que todo este correcto usando `nano $PREFIX/etc/ssh/sshd_config`
+
+
+```
+PrintMotd yes
+PasswordAuthentication yes
+Subsystem sftp /data/data/com.termux/files/usr/libexec/sftp-server
+```
+
 ### Referencias
 
 - [Carpetas por defecto](https://www.preguntandroid.com/pregunta/23211/donde-esta-la-carpeta-en-la-que-termux-se-encuentra-por-defecto)
