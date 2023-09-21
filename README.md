@@ -30,8 +30,6 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 ### Acceso Remoto
 
 ```
-sshd
-pkill sshd
 pkg upgrade
 pkg install openssh
 ```
