@@ -29,18 +29,26 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 
 ### Acceso Remoto
 
+**En tu android**
+
 ```
 pkg upgrade
 pkg install openssh
 ```
 
-Revisar archivo y que todo este correcto usando `nano $PREFIX/etc/ssh/sshd_config`
-
+* Revisar archivo y que todo este correcto usando `nano $PREFIX/etc/ssh/sshd_config`
 
 ```
 PrintMotd yes
 PasswordAuthentication yes
 Subsystem sftp /data/data/com.termux/files/usr/libexec/sftp-server
+```
+
+* Revisar tu nombre de usuario con `whoami`
+
+**En el otro dispositivo**
+```
+ssh <usuario>@<IP> -p 8022
 ```
 
 ### Referencias
