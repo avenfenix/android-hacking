@@ -55,3 +55,4 @@ ssh <usuario>@<IP> -p 8022
 
 - [Carpetas por defecto](https://www.preguntandroid.com/pregunta/23211/donde-esta-la-carpeta-en-la-que-termux-se-encuentra-por-defecto)
 - [Remote Access - Termux Wiki](https://wiki.termux.com/wiki/Remote_Access)
+- [How to use ssh in Termux | Secure Shell - Youtube](https://www.youtube.com/watch?v=x4zS7DS-l9A)
