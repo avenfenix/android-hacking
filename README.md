@@ -27,6 +27,9 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 `/data/data/com.termux/files/home`
 `/storage/emulated/0`
 
+### Acceso Remoto
+
 ### Referencias
 
-- [Carpetas por defecto](https://www.preguntandroid.com/pregunta/23211/donde-esta-la-carpeta-en-la-que-termux-se-encuentra-por-defecto) 
+- [Carpetas por defecto](https://www.preguntandroid.com/pregunta/23211/donde-esta-la-carpeta-en-la-que-termux-se-encuentra-por-defecto)
+- [Remote Access - Termux Wiki](https://wiki.termux.com/wiki/Remote_Access)
