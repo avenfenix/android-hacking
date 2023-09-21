@@ -17,6 +17,7 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 
 - [Como descargar y empezar en OpenBullet](https://discourse.openbullet.dev/t/how-to-download-and-start-openbullet-2/29)
 - [Dotnet 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Package Request: .NET Core - Termux - Github](https://github.com/termux/termux-packages/issues/516)
 
 
 ## Termux
