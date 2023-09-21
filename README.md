@@ -22,8 +22,8 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 
 ## Termux
 
-- [termux-app - Github](https://github.com/termux/termux-app)
-- [termux-app Releases - Github](https://github.com/termux/termux-app/releases/tag/v0.118.0)
+- [Repositorio Oficial](https://github.com/termux/termux-app)
+- [Releases - Descargas]([https://github.com/termux/termux-app/releases/tag/v0.118.0](https://github.com/termux/termux-app/releases/))
 
 ### Carpetas
 
