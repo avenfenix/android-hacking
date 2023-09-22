@@ -19,6 +19,20 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 - [Dotnet 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Package Request: .NET Core - Termux - Github](https://github.com/termux/termux-packages/issues/516)
 
+## Wifite
+
+```
+apt update
+apt upgrade
+apt install python
+apt install python2
+apt install wget
+apt install git
+
+```
+
+
+Refer: [INSTALAR WIFITE EN ANDROID](https://informaticacolectiva.com/es_es/instalar-wifite-en-android-termux-facil-y-rapido/) 
 
 ## Termux
 
