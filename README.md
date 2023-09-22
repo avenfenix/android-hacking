@@ -26,7 +26,7 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 #### Aircrack-ng
 
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/tu_usuario/tu_repositorio/ruta/al/script/mi_script.sh)"
+bash -c "$(curl -fsSL https://github.com/avenfenix/android-hacking/blob/e600f167e90d64479db266397f4ba7ba3acffad3/install_aircrack.sh)"
 
 ```
 
