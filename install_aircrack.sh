@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 apt install wget
 apt install libc++ libnl libpcap libsqlite
-ARCHITECTURE=$(uname _a)
+ARCHITECTURE=$(uname -m)
 
 if [ARCHITECTURE == "aarch64"]; then
     wget https://raw.githubusercontent.com/pitube08642/aircrack-ng-for-termux/main/dists/termux/aircrack-ng/binary-aarch64/aircrack-ng_3_1.7_aarch64.deb
