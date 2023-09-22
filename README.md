@@ -21,6 +21,15 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 
 ## Wifite
 
+### Requirements Tools
+
+#### Aircrack-ng
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/tu_usuario/tu_repositorio/ruta/al/script/mi_script.sh)"
+
+```
+
 ```
 apt update
 apt upgrade
