@@ -28,6 +28,52 @@ echo 'export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools' >> ~/.bashrc
 ```
 bash -c "$(curl -fsSL https://github.com/avenfenix/android-hacking/blob/e600f167e90d64479db266397f4ba7ba3acffad3/install_aircrack.sh)"
 
+~ $ ./install-aircrack.sh
+Get:1 https://packages-cf.termux.dev/apt/termux-main stable InRelease [14.0 kB]
+Get:2 https://packages-cf.termux.dev/apt/termux-main stable/main aarch64 Packages [494 kB]
+Fetched 508 kB in 6s (86.9 kB/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+81 packages can be upgraded. Run 'apt list --upgradable' to see them.
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+./install-aircrack.sh: line 20: syntax error: unexpected end of file
+~ $ dpkg --configute -a
+dpkg: error: unknown option --configute
+
+Type dpkg --help for help about installing and deinstalling packages [*];
+Use 'apt' or 'aptitude' for user-friendly package management;
+Type dpkg -Dhelp for a list of dpkg debug flag values;
+Type dpkg --force-help for a list of forcing options;
+Type dpkg-deb --help for help about manipulating *.deb files;
+
+Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
+~ $ dpkg --configure -a
+dpkg: dependency problems prevent configuration of lld:
+ lld depends on libllvm (= 16.0.6-2); however:
+  Package libllvm is not installed.
+
+dpkg: error processing package lld (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of libcompiler-rt:
+ libcompiler-rt depends on libllvm (= 16.0.6-2); however:
+  Package libllvm is not installed.
+
+dpkg: error processing package libcompiler-rt (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of llvm:
+ llvm depends on libllvm (= 16.0.6-2); however:
+  Package libllvm is not installed.
+
+dpkg: error processing package llvm (--configure):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ lld
+ libcompiler-rt
+ llvm
+
 ```
 
 ```
